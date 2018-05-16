@@ -52,12 +52,12 @@ class Owner
     @pets[:fishes].map {|fish|fish.mood = "happy"}
   end
 
-  def sell_pets
-    # binding.pry
-    @pets.clear
-    if @pets.empty? = true
-      @pets.mood = "nervous"
-    
-  end
+  # def sell_pets
+  #   # binding.pry
+  #   @pets.clear
+  #   if @pets.empty? = true
+  #     @pets.mood = "nervous"
+  #
+  # end
 
 end
