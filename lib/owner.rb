@@ -55,6 +55,7 @@ class Owner
   def sell_pets
     binding.pry
     if @pets.empty? = true
+      @pets
 
   end
 
