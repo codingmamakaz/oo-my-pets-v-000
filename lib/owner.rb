@@ -53,10 +53,11 @@ class Owner
   end
 
   def sell_pets
-    @pets.clear
+
     @pets[:dogs].map {|dog|dog.mood = "nervous"}
     @pets[:cats].map {|cat|cat.mood = "nervous"}
     @pets[:fishes].map {|fish|fish.mood = "nervous"}
+    @pets.clear
   end
 
 end
