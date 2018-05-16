@@ -58,7 +58,6 @@ class Owner
     if @pets.empty? = true
       @pets.mood = "nervous"
     end
-
   end
 
 end
