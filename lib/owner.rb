@@ -53,6 +53,8 @@ class Owner
   end
 
   def sell_pets
+    if @pets.empty? = true
+      
   end
 
 end
