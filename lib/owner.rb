@@ -54,9 +54,9 @@ class Owner
 
   def sell_pets
     binding.pry
-    @pets.clear
-    @pets.mood = "nervous"
-
+    @pets[:dogs].map {|dog|dog.mood = "nervous"}
+    @pets[:cats].map {|cat|cat.mood = "nervous"}
+    @pets[:fishes].map {|fish|fish.mood = "nervous"}
   end
 
 end
