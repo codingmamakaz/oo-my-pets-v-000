@@ -43,7 +43,7 @@ class Owner
   def walk_dogs
     # binding.pry
     # @pets[:dogs] returns [#<Dog:0x000000029575c0 @mood="nervous", @name="Daisy">]
-    @pets[:dogs].mood
+    @pets[:dogs].map {|dog|dog.mood = "happy"}
   end
 
 end
