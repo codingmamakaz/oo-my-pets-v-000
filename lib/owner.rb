@@ -41,7 +41,7 @@ class Owner
   end
 
   def walk_dogs
-    binding.pry
+    # binding.pry
     # @pets[:dogs] returns [#<Dog:0x000000029575c0 @mood="nervous", @name="Daisy">]
     @pets[:dogs].mood
   end
