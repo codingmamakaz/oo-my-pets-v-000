@@ -53,7 +53,7 @@ class Owner
   end
 
   def sell_pets
-    binding.pry
+    # binding.pry
     @pets.clear
     if @pets.empty? = true
       @pets.mood = "nervous"
